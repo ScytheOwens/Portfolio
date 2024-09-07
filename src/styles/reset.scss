@@ -1,0 +1,23 @@
+* {
+    background-color: transparent;
+    border: none;
+    color: $color-white;
+    font-family: Montserrat;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+main {
+    padding: 45px 100px;
+
+    @media (max-width: $mobile) {
+        padding: 20px;
+    }
+}
