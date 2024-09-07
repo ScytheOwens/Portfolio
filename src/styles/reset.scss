@@ -2,7 +2,7 @@
     background-color: transparent;
     border: none;
     color: $color-white;
-    font-family: Montserrat;
+    font-family: sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,12 +10,15 @@
 }
 
 body {
+    background-color: $color-black;
     margin: 0 auto;
     max-width: 1440px;
 }
 
 main {
-    padding: 45px 100px;
+    background-color: $color-primary-dark;
+    padding: 45px 4rem;
+    margin-top: 2rem;
 
     @media (max-width: $mobile) {
         padding: 20px;
