@@ -7,11 +7,11 @@ function Header() {
 
     return (
         <header>
-            <Link to="/" className={current == "/" ? "current" : ""}><img src={logo} alt="Avatar Maëva" className="header-media"/></Link>
             <nav className="header-nav">
-                <Link to="/projets" className={current == "/projets" ? "current" : ""}>Projets</Link>
-                <Link to="/cv" className={current == "/cv" ? "current" : ""}>CV</Link>
-                <Link to="/contact" className={current == "/contact" ? "current" : ""}>Contact</Link>
+                <Link to="/" className={"header-nav-link" + (current == "/" ? " current" : "")}><img src={logo} alt="Avatar Maëva" className="header-nav-link-media"/></Link>
+                <Link to="/projets" className={"header-nav-link" + (current == "/projets" ? " current" : "")}>Projets</Link>
+                <Link to="/cv" className={"header-nav-link" + (current == "/cv" ? " current" : "")}>CV</Link>
+                <Link to="/contact" className={"header-nav-link" + (current == "/contact" ? " current" : "")}>Contact</Link>
             </nav>
         </header>
     )
