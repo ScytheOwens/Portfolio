@@ -99,27 +99,27 @@
     },
     "hardSkills": [
         {
-            "type": "Langages",
+            "name": "Langages",
             "list": ["PHP", "Javascript/jQuery", "HTML/Twig", "CSS/SASS"]
         },
         {
-            "type": "Frameworks",
+            "name": "Frameworks",
             "list": ["React", "Symfony", "NodeJS"]
         },
         {
-            "type": "SGDB",
+            "name": "SGDB",
             "list": ["PostgreSQL", "MongoDB"]
         },
         {
-            "type": "OS",
+            "name": "OS",
             "list": ["Windows", "Ubuntu"]
         },
         {
-            "type": "Virtualisation",
+            "name": "Virtualisation",
             "list": ["Docker"]
         },
         {
-            "type": "Versioning",
+            "name": "Versioning",
             "list": ["Git", "Gitlab", "Github"]
         }
     ],
