@@ -1,0 +1,135 @@
+{
+    "lastName": "Grondin",
+    "FirstName": "Maëva",
+    "birthdate": "1998-05-18",
+    "photo": "../assets/images/maeva_profil.webp",
+    "driving": {
+        "License": "B",
+        "hasVehicule": true
+    },
+    "socialLinks": [
+        {
+            "icon": "",
+            "label": "Linkedin",
+            "href": "https://www.linkedin.com/in/ma%C3%ABva-grondin-532260191/"
+        },
+        {
+            "icon": "",
+            "label": "Github",
+            "href": "https://github.com/ScytheOwens"
+        }
+    ],
+    "educationalBackground": [
+        {
+            "diploma": "Certificat Développeur Web",
+            "date": "2024-10",
+            "schoolName": "Openclassroom",
+            "place": "Villeurbanne (69)"
+        },
+        {
+            "diploma": "BTS Tourisme",
+            "date": "2019-07",
+            "schoolName": "Lycée Saint-Vincent-de-Paul",
+            "place": "Nîmes (30)"
+        },
+        {
+            "diploma": "Baccalauréat Scientifique",
+            "date": "2016-07",
+            "schoolName": "Lycée Jean-Paul Sartre",
+            "place": "Bron (69)"
+        }
+    ],
+    "professionalBackground": [
+        {
+            "job": "Développeuse Web Fullstack",
+            "company": "IDCI-Consulting",
+            "beginOn": "2023-10",
+            "EndOn": "2024-10",
+            "status": "alternance",
+            "place": "Villeurbanne (69)",
+            "tasks": ["Création d'interfaces utilisateurs selon maquette", "Réalisation de BackOffices", "Gestion de projet", "Rédaction de contenu web"]
+        },
+        {
+            "job": "Assistance Administrative",
+            "company": "Cargo Ground Freight",
+            "beginOn": "2021-05",
+            "EndOn": "2023-10",
+            "status": "CDI",
+            "place": "Saint Laurent de Mure (69)",
+            "tasks": ["Procédures douanières", "Manutention", "saisie de donnée", "standard téléphonique", "gestion relation client"]
+        },
+        {
+            "job": "Réceptionniste",
+            "company": "B&B Hôtel",
+            "beginOn": "2019-10",
+            "EndOn": "2021-05",
+            "status": "CDI",
+            "place": "Chassieu (69)",
+            "tasks": ["standard téléphonique", "gestion relation client", "service restauration", "nettoyage de chambre"]
+        }
+    ],
+    "personnalBackground": {
+        "2024": [
+            {
+                "name": "Refonte d'un site de vente de livres sous Symfony",
+                "organisation": "Les Editions Lunaires",
+                "place": "Villeurbanne (69)"
+            },
+            {
+                "name": "Collecte et tri de denrées",
+                "organisation": "Les Restos du Coeur",
+                "place": "Lyon (69)"
+            },
+            {
+                "name": "Accueil stand de jeux de société",
+                "organisation": "FAJIRA",
+                "place": "Villeurbanne (69)"
+            }
+        ],
+        "2022": [
+            {
+                "name": "Publication de roman et création de site web",
+                "organisation": "Les Editions Lunaires",
+                "place": "Saint Laurent de Mure (69)"
+            }
+        ]
+    },
+    "hardSkills": [
+        {
+            "type": "Langages",
+            "list": ["PHP", "Javascript/jQuery", "HTML/Twig", "CSS/SASS"]
+        },
+        {
+            "type": "Frameworks",
+            "list": ["React", "Symfony", "NodeJS"]
+        },
+        {
+            "type": "SGDB",
+            "list": ["PostgreSQL", "MongoDB"]
+        },
+        {
+            "type": "OS",
+            "list": ["Windows", "Ubuntu"]
+        },
+        {
+            "type": "Virtualisation",
+            "list": ["Docker"]
+        },
+        {
+            "type": "Versioning",
+            "list": ["Git", "Gitlab", "Github"]
+        }
+    ],
+    "softSkills": ["Organisation", "Autonomie", "Réactivité", "Curiosité intellectuelle"],
+    "languages": [
+        {
+            "name": "Français",
+            "level": "Langue maternelle"
+        },
+        {
+            "name": "Anglais",
+            "level": "B2"
+        }
+    ],
+    "hobbies": ["Ecriture", "Politique", "Littérature", "Peinture sur figurine", "Violon", "Plongée sous-marine"]
+}
