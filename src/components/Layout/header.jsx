@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import logo from '../../assets/images/maeva_profil.webp';
+import logo from 'assets/images/maeva_profil.webp';
 
 function Header() {
     const current = useLocation().pathname;
