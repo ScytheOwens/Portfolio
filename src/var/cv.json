@@ -1,10 +1,13 @@
 {
     "lastName": "Grondin",
-    "FirstName": "Maëva",
+    "firstName": "Maëva",
     "birthdate": "1998-05-18",
-    "photo": "../assets/images/maeva_profil.webp",
+    "photo": "maeva_profil.webp",
+    "adress": "69100, Villeurbanne",
+    "email": "maeva.gr@live.fr",
+    "mobile": "07 50 43 99 45",
     "driving": {
-        "License": "B",
+        "license": "B",
         "hasVehicule": true
     },
     "socialLinks": [
