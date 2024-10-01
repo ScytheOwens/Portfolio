@@ -20,7 +20,7 @@ function Listing({itemList}) {
 }
 
 Listing.Prototypes = {
-    person: PropTypes.object.isRequired
+    itemList: PropTypes.array.isRequired
 }
 
 export default Listing;

@@ -47,7 +47,7 @@
             "job": "Développeuse Web Fullstack",
             "company": "IDCI-Consulting",
             "beginOn": "2023-10",
-            "EndOn": "2024-10",
+            "endOn": "2024-10",
             "status": "alternance",
             "place": "Villeurbanne (69)",
             "tasks": ["Création d'interfaces utilisateurs selon maquette", "Réalisation de BackOffices", "Gestion de projet", "Rédaction de contenu web"]
@@ -56,7 +56,7 @@
             "job": "Assistance Administrative",
             "company": "Cargo Ground Freight",
             "beginOn": "2021-05",
-            "EndOn": "2023-10",
+            "endOn": "2023-10",
             "status": "CDI",
             "place": "Saint Laurent de Mure (69)",
             "tasks": ["Procédures douanières", "Manutention", "saisie de donnée", "standard téléphonique", "gestion relation client"]
@@ -65,7 +65,7 @@
             "job": "Réceptionniste",
             "company": "B&B Hôtel",
             "beginOn": "2019-10",
-            "EndOn": "2021-05",
+            "endOn": "2021-05",
             "status": "CDI",
             "place": "Chassieu (69)",
             "tasks": ["standard téléphonique", "gestion relation client", "service restauration", "nettoyage de chambre"]
