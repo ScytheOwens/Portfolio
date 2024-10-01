@@ -1,0 +1,22 @@
+.widget-listing {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+
+    .widget-listing-item {
+        .widget-listing-item-title {
+            font-size: $font-size-large;
+        }
+
+        .widget-listing-item-list {
+            margin-top: 1rem;
+            padding-left: 1.5rem;
+
+            .widget-listing-item-list-element {
+                &:not(:first-child) {
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+    }
+}

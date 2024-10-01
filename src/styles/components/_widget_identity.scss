@@ -1,0 +1,17 @@
+.widget-identity {
+    column-gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+    .widget-identity-info {
+        .widget-identity-info-text {
+            &:not(:last-child) {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+
+    .widget-identity-media {
+        height: 10rem;
+    }
+}

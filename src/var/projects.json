@@ -1,29 +1,33 @@
 [
     {
+        "id": "project-001",
         "name": "Portfolio",
         "realisedOn": "2024-09",
-        "media": "",
+        "media": "portfolio.png",
         "link": "https://github.com/ScytheOwens/Portfolio",
         "jobs": ["Gestion de projet", "Maquettage", "Développement d'interfaces utilisateur", "Rédaction de contenu Web"],
         "technicalEnvironment": ["React", "SASS", "HTML", "Javascript", "Github"]
     },
     {
+        "id": "project-002",
         "name": "Les Editions Lunaires",
         "realisedOn": "2024-09",
-        "media": "",
+        "media": "les-editions-lunaires.png",
         "link": "https://github.com/ScytheOwens/leseditionslunaires",
         "jobs": ["Gestion de projet", "Refonte complète du site", "Conteneurisation"],
         "technicalEnvironment": ["HTML/Twig", "SASS", "Javascript", "PHP 8", "Symfony 6.4", "Doctrine", "PostgreSQL", "Nginx", "Github", "Docker"]
     },
     {
+        "id": "project-003",
         "name": "Mon vieux grimoire",
         "realisedOn": "2024-07",
-        "media": "",
+        "media": "mon-vieux-grimoire.png",
         "link": "https://github.com/ScytheOwens/MonVieuxGrimoire",
         "jobs": ["Définition des opérations CRUD", "Routage", "Sécurisation de base de données", "Connexion à un Front existant", "Définition de modèles de données"],
         "technicalEnvironment": ["NodeJS", "Javascript", "Express", "MongoDB"]
     },
     {
+        "id": "project-004",
         "name": "Kasa",
         "realisedOn": "2024-05",
         "media": "",

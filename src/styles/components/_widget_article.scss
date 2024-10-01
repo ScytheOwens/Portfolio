@@ -1,0 +1,23 @@
+.widget-article {
+    &:not(:first-child) {
+        margin-top: 1rem
+    }
+
+    .widget-article-subtitle {
+        font-size: $font-size-small;
+        font-style: italic;
+    }
+
+    .widget-article-content {
+        margin-top: 0.5rem;
+    }
+
+    .widget-article-list {
+        padding-left: 1rem;
+
+        .widget-article-list-item {
+            list-style-type: disc;
+            list-style-position: inside;
+        }
+    }
+}

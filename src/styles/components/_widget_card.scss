@@ -1,0 +1,25 @@
+.widget-card {
+    background-color: $color-white;
+    border-radius: 0.5rem;
+    display: block;
+    padding: 1rem;
+
+    &:hover {
+        box-shadow: rgba(2, 90, 81, 0.7) 0px 0px 0px 3px inset;
+    }
+
+    .widget-card-media {
+        background-color: $color-primary-dark;
+        max-height: 10rem;
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .widget-card-content {
+        margin-top: 1rem;
+
+        * {
+            color: $color-secondary-dark;
+        }
+    }
+}

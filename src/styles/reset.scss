@@ -16,9 +16,10 @@ body {
 }
 
 main {
-    background-color: $color-primary-dark;
+    background-color: $color-primary-light;
     padding: 45px 4rem;
-    margin-top: 2rem;
+    margin: 1rem auto 0 auto;
+    width: 80%;
 
     @media (max-width: $mobile) {
         padding: 20px;
