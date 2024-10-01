@@ -42,7 +42,7 @@ function Home() {
                             <h2>Récent</h2>
                             <ul className='widget-tab-aside-menu-submenu-items'>
                                 { lastProjects.map((project, index) => 
-                                    <li className='widget-tab-aside-menu-submenu-items-item' onClick={ () => displayTab("tab-" + project.id) }>{ project.name }</li>
+                                    <li className='widget-tab-aside-menu-submenu-items-item' key={ 'tab-label-' + index } onClick={ () => displayTab("tab-" + project.id) }>{ project.name }</li>
                                 ) }
                             </ul>
                         </section>

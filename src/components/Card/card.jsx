@@ -9,7 +9,7 @@ function Card({media, title, link, date, content}) {
                 <h2 className="widget-card-content-title">{ title }</h2>
                 <p className="widget-card-content-timestamp">{ date }</p>
                 { content.map((item, index) => 
-                    <Article
+                    <Article key={ 'card-content-' + index }
                         title={ item.title }
                         paragraphs={ [item.content] }
                     />
