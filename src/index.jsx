@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Layout/header.jsx';
+import Footer from './components/Layout/footer.jsx';
 import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects';
 import Cv from './pages/Cv/Cv';
 import Contact from './pages/Contact/Contact';
+import LegalMentions from './pages/LegalMentions/LegalMentions';
 import './App.scss';
 import reportWebVitals from './reportWebVitals';
 
@@ -20,10 +22,11 @@ root.render(
           <Route path="/projets" element={<Projects/>}/>
           <Route path="/cv" element={<Cv/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/mention-legales" element={<LegalMentions/>}/>
           {/* <Route path="*" element={<Error/>}/> */}
         </Routes>
       </main>
-      {/* <Footer/> */}
+      <Footer/>
     </Router>
   </React.StrictMode>
 );

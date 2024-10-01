@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    column-gap: 1rem;
+    margin: 1rem auto;
+    width: 90%;
+
+    .footer-text {
+        .footer-text-link {
+            color: $color-secondary;
+
+            &:hover {
+                filter: brightness(2);
+            }
+        }
+    }
+}
