@@ -1,0 +1,23 @@
+.widget-presentation {
+    .widget-presentation-title {
+        font-size: $font-size-2x;
+        text-align: center;
+    }
+
+    .widget-presentation-content {
+        margin-top: 4rem;
+
+        .widget-presentation-content-section {
+            margin-top: 2rem;
+
+            &:not(:first-child) {
+                border-top: 5px dotted $color-secondary;
+                padding-top: 2rem;
+            }
+
+            .widget-listing {
+                margin-top: 1rem
+            }
+        }
+    }
+}

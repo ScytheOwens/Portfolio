@@ -71,32 +71,32 @@
             "tasks": ["standard téléphonique", "gestion relation client", "service restauration", "nettoyage de chambre"]
         }
     ],
-    "personnalBackground": {
-        "2024": [
-            {
-                "name": "Refonte d'un site de vente de livres sous Symfony",
-                "organisation": "Les Editions Lunaires",
-                "place": "Villeurbanne (69)"
-            },
-            {
-                "name": "Collecte et tri de denrées",
-                "organisation": "Les Restos du Coeur",
-                "place": "Lyon (69)"
-            },
-            {
-                "name": "Accueil stand de jeux de société",
-                "organisation": "FAJIRA",
-                "place": "Villeurbanne (69)"
-            }
-        ],
-        "2022": [
-            {
-                "name": "Publication de roman et création de site web",
-                "organisation": "Les Editions Lunaires",
-                "place": "Saint Laurent de Mure (69)"
-            }
-        ]
-    },
+    "personnalBackground": [
+        {
+            "name": "Refonte d'un site de vente de livres sous Symfony",
+            "organisation": "Les Editions Lunaires",
+            "date": "2024",
+            "place": "Villeurbanne (69)"
+        },
+        {
+            "name": "Collecte et tri de denrées",
+            "date": "2024",
+            "organisation": "Les Restos du Coeur",
+            "place": "Lyon (69)"
+        },
+        {
+            "name": "Accueil stand de jeux de société",
+            "date": "2023",
+            "organisation": "FAJIRA",
+            "place": "Villeurbanne (69)"
+        },
+        {
+            "name": "Publication de roman et création de site web",
+            "date": "2022",
+            "organisation": "Les Editions Lunaires",
+            "place": "Saint Laurent de Mure (69)"
+        }
+    ],
     "hardSkills": [
         {
             "name": "Langages",
