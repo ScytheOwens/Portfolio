@@ -3,6 +3,11 @@
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: $mobile) {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
     .widget-identity-info {
         .widget-identity-info-text {
             &:not(:last-child) {
@@ -13,5 +18,11 @@
 
     .widget-identity-media {
         height: 10rem;
+
+        @media (max-width: $mobile) {
+            height: auto;
+            object-fit: contain;
+            width: 100%;
+        }
     }
 }

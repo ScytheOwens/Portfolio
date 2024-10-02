@@ -1,6 +1,10 @@
 .widget-article {
     &:not(:first-child) {
-        margin-top: 1rem
+        margin-top: 1rem;
+
+        @media (max-width: $mobile) {
+            margin-top: 2rem;
+        }
     }
 
     .widget-article-subtitle {
