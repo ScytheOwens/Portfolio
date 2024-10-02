@@ -30,7 +30,7 @@
         "id": "project-004",
         "name": "Kasa",
         "realisedOn": "2024-05",
-        "media": "",
+        "media": "kasa.png",
         "link": "https://github.com/ScytheOwens/kasa",
         "jobs": ["Développement d'interfaces utilisateur à partir d'une maquette"],
         "technicalEnvironment": ["React", "HTML", "SASS", "Javascript", "Github"]

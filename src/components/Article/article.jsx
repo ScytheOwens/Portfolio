@@ -6,7 +6,6 @@ function Article({title, subtitle, date, paragraphs}) {
             <p className="widget-article-timestamp">{ date }</p>
             <h3 className="widget-article-title">{ title }</h3>
             <p className="widget-article-subtitle">{ subtitle }</p>
-            { console.log(paragraphs) }
             { paragraphs.map((paragraph, index) =>
                 Array.isArray(paragraph) ? 
                     <ul className="widget-article-content widget-article-list" key={ 'paragraph-' + index }>

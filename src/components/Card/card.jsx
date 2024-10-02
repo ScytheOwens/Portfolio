@@ -16,14 +16,15 @@ function Card({media, title, link, date, content}) {
                 )}
             </section>
         </a>
-    )
+    );
 }
 
 Card.Prototypes = {
     media: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
-    date: PropTypes.string
+    date: PropTypes.string,
+    content: PropTypes.array
 }
 
 export default Card;
