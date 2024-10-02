@@ -1,0 +1,46 @@
+.widget-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    row-gap: 1rem;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+
+        @media (max-width: $mobile) {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        input, textarea {
+            background-color: $color-primary-dark;
+            margin-left: 2rem;
+            padding: 0.5rem 1rem;
+            width: 50%;
+
+            @media (max-width: $mobile) {
+                margin: 1rem 0 0 0;
+                width: 90%;
+            }
+        }
+
+        textarea {
+            height: 10rem;
+        }
+    }
+
+    button {
+        background-color: $color-secondary;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem;
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(2);
+        }
+    }
+}
