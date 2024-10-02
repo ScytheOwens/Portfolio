@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22cd132b.css",
+    "main.js": "/static/js/main.24bff3d1.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/kasa.png": "/static/media/kasa.8278a34e1982b7f29156.png",
+    "static/media/mon-vieux-grimoire.png": "/static/media/mon-vieux-grimoire.9bbc3a0417da421827e9.png",
+    "static/media/les-editions-lunaires.png": "/static/media/les-editions-lunaires.9f6a697677fe04ced5b8.png",
+    "static/media/portfolio.png": "/static/media/portfolio.abee1c9ef4e76bc0ff6e.png",
+    "static/media/maeva_profil.webp": "/static/media/maeva_profil.dc8a68ab2170bf60f32f.webp",
+    "index.html": "/index.html",
+    "main.22cd132b.css.map": "/static/css/main.22cd132b.css.map",
+    "main.24bff3d1.js.map": "/static/js/main.24bff3d1.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22cd132b.css",
+    "static/js/main.24bff3d1.js"
+  ]
+}
